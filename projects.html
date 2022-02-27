@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Eric Bokenfohr</title>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/png" sizes="16x16" href="./favicon_16x16.png" />
+        <link rel="shortcut icon" type="image/png" sizes="32x32" href="./favicon_32x32.png" />
+
+        <!-- Font Awesome icons -->
+        <link href="./css/font-awesome.min.css" rel="stylesheet" />
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+        <!-- Bootswatch Theme -->
+        <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">Eric Bokenfohr</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./work-experience.html">Work Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./supermileage.html">Supermileage</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./projects.html">
+                                Projects
+                                <span class="visually-hidden">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./education.html">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./acheivements.html">Achievements</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Page Content-->
+        <div class="container">
+
+            <!-- Nav Pills -->
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<ul class="nav nav-pills mt-3" style="display:flex;justify-content:center">
+						<li class="nav-item">
+							<a class="nav-link active" data-toggle="pill" href="#overview">Overview</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="pill" href="#supermileage">Supermileage</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="pill" href="#senior">Senior Year</a>
+						</li>
+						<!--<li class="nav-item">
+							<a class="nav-link" data-toggle="pill" href="#year3">3rd Year</a>
+						</li>-->
+						<!--<li class="nav-item">
+							<a class="nav-link" data-toggle="pill" href="#year2">2nd Year</a>
+						</li>-->
+                        <li class="nav-item">
+							<a class="nav-link" data-toggle="pill" href="#personal">Personal</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+            <hr style="height:4px" />
+
+            <!-- Pill Content -->
+            <div id="myTabContent" class="tab-content">
+
+                <!-- Overview -->
+                <div class="tab-pane fade active show" id="overview">
+
+                    <div class="container">
+
+                        <!-- Supermileage -->
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <h2>Supermileage</h2>
+                            </div>
+                            <div class="col-lg-10">
+
+                                <!-- Card container -->
+                                <div class="container">
+
+                                    <div class="row mb-3">
+
+                                        <!-- FCP Chassis -->
+                                        <div class="col-lg-6">
+                                            <div class="card" style="height:100%">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">2020-2021: Fuel Cell Prototype Chassis</h4>
+                                                    <img src="./img/projects/fcp-chassis/FCP-Chassis.jpg" alt="" class="img-fluid p-2" />
+                                                    <p class="card-text">
+                                                        With the development of a new fuel cell vehicle, I led the design and manufacturing of a new composite sandwich chassis.
+                                                        I used ANSYS Composite PrepPost to simulate the deflection and safety factor of various composite structures, and selected the best option based on safety factor and mass.
+                                                        Myself and another team member then used wet layup methods to manufacture the composite sandwich, then cut out the final chassis shape.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- URB Shell -->
+                                        <div class="col-lg-6">
+                                            <div class="card" style="height:100%">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">2020-2021: Urban Concept Shell Design</h4>
+                                                    <img src="./img/projects/urb-shell/CE-Streamline.png" alt="" class="img-fluid p-2" />
+                                                    <p class="card-text">
+                                                        Due to various issues with the current Urban Concept aeordynamic shell, I began the process of designing a new version.
+                                                        Aerodynamic principles and SOLIDWORKS were used to generate various concepts that aimed to reduce the overall drag.
+                                                        Shell models were then imported into Star-CCM+, and the aerodynamic performance of each was simulated.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mb-3">
+
+                                        <!-- PRO Brakes -->
+                                        <div class="col-lg-6">
+                                            <div class="card" style="height:100%">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">2019-2020: Gasoline Prototype Brake System</h4>
+                                                    <img src="./img/projects/pro-brakes/CAD-Final.png" alt="" class="img-fluid p-2" />
+                                                    <p class="card-text">
+                                                        I led the project group tasked with creating a new foot-actuated brake system for the gasoline Prototype vehicle.
+                                                        This redesign was required due to competition rule changes.
+                                                        My team and I used composite analysis to look at various mounting solutions, and performed prototype testing to find a foot-actuation system design.
+                                                        Various concepts were modelled using SOLIDWORKS.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <!-- URB Brakes -->
+                                        <!--<div class="col-lg-6">
+                                <div class="card" style="height:100%">
+                                    <div class="card-body">
+                                        <h4 class="card-title">2018-2019: Urban Concept Brake System</h4>
+                                        <img src="./img/projects/urb-brakes/Pedal-Render.jpg" alt="" class="img-fluid p-2" />
+                                        <p class="card-text">
+                                            Project description.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>-->
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <hr style="height:4px" />
+
+                        <!-- Senior Year -->
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <h2>Senior Year</h2>
+                            </div>
+                            <div class="col-lg-10">
+
+                                <!-- Card container -->
+                                <div class="container">
+
+                                    <!--<div class="row mb-3">-->
+
+                                        <!-- NVD -->
+                                        <!--<div class="col-lg-6">
+                                            <div class="card" style="height:100%">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">APSC 496: Sound Localization Device</h4>
+                                                    <img src="./img/projects/fcp-chassis/FCP-Chassis.jpg" alt="" class="img-fluid p-2" />
+                                                    <p class="card-text">
+                                                        Project description.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>-->
+
+                                        <!-- MECH 464 -->
+                                        <!--<div class="col-lg-6">
+                                            <div class="card" style="height:100%">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">MECH 464: Autonomy with Coppelia</h4>
+                                                    <img src="./img/projects/urb-shell/CE-Streamline.png" alt="" class="img-fluid p-2" />
+                                                    <p class="card-text">
+                                                        Project description.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>-->
+
+                                    <div class="row mb-3">
+
+                                        <!-- MECH 423 -->
+                                        <div class="col-lg-6">
+                                            <div class="card" style="height:100%">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">MECH 423: Lego Brick Colour Sorter</h4>
+                                                    <img src="./img/projects/mech-423/FinalSystem.jpg" alt="" class="img-fluid p-2" />
+                                                    <p class="card-text">
+                                                        As part of a senior year course, myself and a partner were tasked with developing an integrated mechatronics system.
+                                                        We built an automated system that sorts building blocks based on colour. 
+                                                        This project involved a lot of mechanical design, 3D-printing, electrical circuitry, and firmware coding.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <hr style="height:4px" />
+
+                        <!-- Personal -->
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <h2>Personal</h2>
+                            </div>
+                            <div class="col-lg-10">
+
+                                <!-- Card container -->
+                                <div class="container">
+
+                                    <div class="row mb-3">
+
+                                        <!-- Online Portfolio -->
+                                        <div class="col-lg-6">
+                                            <div class="card" style="height:100%">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Online Portfolio</h4>
+                                                    <div class="text-center">
+                                                        <img src="./img/projects/portfolio/profile.jpg" alt="" class="img-fluid p-2" />
+                                                    </div>
+                                                    <p class="card-text">
+                                                        Using Bootstrap CSS and JS, along with a Bootswatch template, I developed an online portfolio - the one you are visiting right now.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <hr style="height:4px" />
+
+                    </div>
+
+                </div>
+
+                <!-- Supermileage -->
+                <div class="tab-pane fade" id="supermileage">
+                    <div class="container">
+
+                        <!-- Shortcuts -->
+                        <div class="row">
+                            <div class="col-lg-12 text-center">
+                                <a href="#fcp-chassis"><button type="button" class="btn btn-primary">2020-2021: Fuel Cell Prototype Chassis</button></a>
+                            </div>
+                            <div class="col-lg-12 mt-1 text-center">
+                                <a href="#urb-shell"><button type="button" class="btn btn-primary">2020-2021: Urban Concept Shell Design</button></a>
+                            </div>
+                            <div class="col-lg-12 mt-1 text-center">
+                                <a href="#pro-brakes"><button type="button" class="btn btn-primary">2019-2020: Gasoline Prototype Brake System</button></a>
+                            </div>
+                            <!--<div class="col-lg-12 mt-1 text-center">
+                                <a href="#urb-brakes"><button type="button" class="btn btn-primary">2018-2019: Urban Concept Brake System</button></a>
+                            </div>-->
+                        </div>
+
+                        <hr style="height:4px" id="fcp-chassis" />
+
+                        <!-- FCP Chassis -->
+                        <h2 class="text-center">2020-2021: Fuel Cell Prototype Chassis</h2>
+
+                        <figure class="text-center">
+                            <img src="./img/projects/fcp-chassis/FCP-Chassis.jpg" alt="" class="img-fluid p-2" width="50%" />
+                            <figcaption><small>The final chassis, with front wheels attached</small></figcaption>
+                        </figure>
+
+                        <hr />
+
+                        <h6>Objective</h6>
+                        <p>
+                            With the development of a brand new fuel cell Prototype vehicle in 2020-2021 came the need for a new chassis.
+                            The goal was to make this new chassis more light-weight than the current chassis for the team's gasoline Prototype vehicle, which was built in early 2018.
+                        </p>
+                        <p>
+                            I was responsible for leading this project, and ensuring that the chassis was built by the summer of 2021.
+                            In order to improve our design capabilities, I introduced the team to ANSYS Composite PrepPost (ACP) for simulating the strength and stiffness of composite chassis designs.
+                            I then carried out a number of simulations, and eventually organized and led the manufacturing with the help of a few team members.
+                        </p>
+
+                        <h6>Chassis Design</h6>
+                        <p>
+                            The shape of the chassis was constrained because it needed to work with an already-existing aerodynamic shell.
+                            Therefore, the major design decisions involved the materials and construction of the chassis.
+                        </p>
+                        <p>
+                            A composite sandwich structure was selected, as the team had previous experience with this construction and were very successful utilizing it - the 2018 gasoline Prototype chassis used this very structure.
+                            The sandwich faces would be made using carbon fibre composite, due to this engineering material's high stiffness-to-mass ratio.
+                            The core of the sandwich would be a Nomex honeycomb, which both increases the 2nd moment of area and the shear strength of the chassis with relatively low mass.
+                        </p>
+                        <p>
+                            ACP simulations were carried out to test different sandwich constructions.
+                            Some different aspects of the construction explored included the number of carbon fibre layers, orientation of these layers, and the use of stiffening plies.
+                            In total 55 simulations were completed, and a final design with a safety factor of 4 was selected.
+                        </p>
+
+                        <figure class="text-center">
+                            <img src="./img/projects/fcp-chassis/ACP-Sim.jpg" alt="" class="img-fluid p-2" width="40%" />
+                            <figcaption><small>Safety factor results for the selected chassis design</small></figcaption>
+                        </figure>
+
+                        <h6>Manufacturing</h6>
+                        <p>
+                            With the chassis designed, the next step was to build it. The team had the goal of building the new fuel cell vehicle by the summer of 2021, so that meant this chassis needed to be built with ongoing restrictions due to the COVID-19 pandemic.
+                            The restrictions, which included limited us to two team members working in our space at a time, meant that the entire manufacturing process for the chassis had to be developed from the ground-up with these restrictions in mind.
+                        </p>
+                        <p>
+                            The manufacturing process was done in four parts:
+                            <ul>
+                                <li>Lay up one face of the chassis</li>
+                                <li>Lay up the other face of the chassis</li>
+                                <li>Sandwich the faces and the Nomex core</li>
+                                <li>Cut out the final chassis shape</li>
+                            </ul>
+                        </p>
+
+                        <figure class="text-center">
+                            <img src="./img/projects/fcp-chassis/Making-Chassis.jpg" alt="" class="img-fluid p-2" width="40%" />
+                            <figcaption><small>A team member sandwiching the carbon fibre faces and the Nomex core</small></figcaption>
+                        </figure>
+
+                        <figure class="text-center">
+                            <img src="./img/projects/fcp-chassis/Final-Sandwich.jpg" alt="" class="img-fluid p-2" width="20%" />
+                            <img src="./img/projects/fcp-chassis/Testing-Chassis.jpg" alt="" class="img-fluid p-2" width="20%" />
+                            <figcaption><small>Myself pictured with the composite sandwich (left) and also testing the strength of the final chassis (right)</small></figcaption>
+                        </figure>
+
+                        <h6>Outcomes</h6>
+                        <p>
+                            We successfully built the chassis in time to run the new fuel cell vehicle in July of 2021.
+                            The chassis design used was 28% lighter than the 2018 gasoline Prototype chassis.
+                        </p>
+
+                        <figure class="text-center">
+                            <img src="./img/projects/fcp-chassis/FCP-Track.jpg" alt="" class="img-fluid p-2" width="40%" />
+                            <figcaption><small>The completed fuel cell vehicle on-track</small></figcaption>
+                        </figure>
+
+                        <!--<p>
+                In completing this project, I:
+                <ul>
+                    <li>Placeholder</li>
+                </ul>
+            </p>-->
+
+                        <hr style="height:4px" id="urb-shell" />
+
+                        <!-- URB Shell -->
+                        <h2 class="text-center">2020-2021: Urban Concept Shell Design</h2>
+
+                        <figure class="text-center">
+                            <img src="./img/projects/urb-shell/CE-Streamline.png" alt="" class="img-fluid p-2" width="50%" />
+                            <figcaption><small>A streamline plot of Concept E, used to visualize flow paths and velocities</small></figcaption>
+                        </figure>
+
+                        <hr />
+
+                        <h6>Objective</h6>
+                        <p>
+
+                            The current aerodynamic shell for the team's Urban Concept vehicle was manufactured in 2016, and as a result is showing signs of its age.
+                            There are multiple fit issues with the door and back hatch, leading to unwanted aerodynamic losses. This shell also has some design flaws, including a blunt tail (creating flow separation) and no underbody design.
+                            With all these issues in mind, the team started thinking about designing a new shell for the vehicle in the summer of 2020.
+                        </p>
+                        <p>
+
+                            I was initially one of three Vehicle Mechanics Division Leads overseeing this project in the summer of 2020.
+                            Due to various factors however, I ended up spearheading much of the work for this project over the course of the 2020-2021 academic year. My first task was to learn how to use Star-CCM+, a computational fluid dynamics (CFD) software.
+                            After learning how to use the software, I began comparing the performance of the current 2016 shell to one I designed using SOLIDWORKS (titled "Concept E").
+                        </p>
+
+                        <h6>Design and Testing</h6>
+                        <p>
+                            An initial round of shell concepts were developed with the help of various team members.
+                            The goal of this concept generation phase was to develop a wide variety of concepts that would be compatible with the current internal structure of the car, so that there was no need to redesign the entire vehicle.
+                            Since the UBC Supermileage Team's ultimate goal is to create super-efficient vehicles, all concepts were designed with the aim of reducing aerodynamic drag.
+                        </p>
+
+                        <figure class="text-center">
+                            <img src="./img/projects/urb-shell/CB-Sketch.png" alt="" class="img-fluid p-2" width="40%" />
+                            <figcaption><small>A hand sketch of one concept titled "Concept B"</small></figcaption>
+                        </figure>
+
+                        <p>
+                            Several of these concepts were then modelled in SOLIDWORKS, in order to create a CAD model for CFD simulations and also to make sure vehicle internals fit inside the design.
+                            CAD models were then exported to Parasolid format, with the wheels included, and imported into Star-CCM+.
+                            By creating a virtual wind tunnel and setting up parameters, various aerodynamic properties such as drag and downforce were estimated.
+                        </p>
+
+                        <figure class="text-center">
+                            <img src="./img/projects/urb-shell/CE-render.jpg" alt="" class="img-fluid p-2" width="40%" />
+                            <figcaption><small>A SOLIDWORKS render of "Concept E"</small></figcaption>
+                        </figure>
+
+                        <figure class="text-center">
+                            <img src="./img/projects/urb-shell/CE-Mesh.jpg" alt="" class="img-fluid p-2" width="30%" />
+                            <img src="./img/projects/urb-shell/CE-Velocity.png" alt="" class="img-fluid p-2" width="30%" />
+                            <figcaption><small>The Star-CCM+ volume mesh of Concept E (left) and a plot of the flow velocities at the mid-section of the vehicle (right)</small></figcaption>
+                        </figure>
+
+                        <p>
+                            During the work done in 2020-2021, simulation time was spent comparing the 2016 shell with the Concept E mentioned previously.
+                            Initial simulation predicted that the Concept E had 25% less aerodynamic drag (2.95 Newtons) compared to the 2016 design (3.93 Newtons), demonstrating the room for improvement.
+                            There were also multiple improvements identified with Concept E that, if implemented, could lead to even greater gains in efficiency.
+                        </p>
+
+                        <figure class="text-center">
+                            <img src="./img/projects/urb-shell/CE-drag.png" alt="" class="img-fluid p-2" width="50%" />
+                            <figcaption><small>The drag force of Concept E over the course of simulation iterations</small></figcaption>
+                        </figure>
+
+                        <h6>Outcomes</h6>
+                        <p>
+                            Due to the emphasis on the team's new fuel cell Prototype vehicle in the first half of 2021, I was unable to see the design process to completion before moving from the position of Vehicle Mechanics Division Lead to Team Captain.
+                            However, my work was not in vain as it showed the potential improvements the team can make to the Urban Concept vehicle's aerodynamics.
+                            My experience also allowed me to introduce other members of the team to the project and train them, with hopes of completing the new shell in the summer of 2022.
+                        </p>
+
+                        <!--<p>
+                In working on this project, I:
+                <ul>
+                    <li>Placeholder</li>
+                </ul>
+            </p>-->
+
+                        <hr style="height:4px" id="pro-brakes" />
+
+                        <!-- PRO Brakes -->
+                        <h2 class="text-center">2019-2020: Gasoline Prototype Brake System</h2>
+
+                        <figure class="text-center">
+                            <img src="./img/projects/pro-brakes/CAD-Final.png" alt="" class="img-fluid p-2" width="50%" />
+                            <figcaption><small>CAD of the final brake lever mount</small></figcaption>
+                        </figure>
+
+                        <hr />
+
+                        <h6>Objective</h6>
+                        <p>
+                            Before the 2019-2020 year, the team's gasoline Prototype vehicle used mechanical bike disc brakes on each wheel.
+                            All the brakes were engaged by hand using two standard brake levers. However, for our 2020 Shell Eco-marathons competition the rules were changed so that:
+                            <ul>
+                                <li>All brakes must be hydraulic</li>
+                                <li>The front brakes must be foot-actuated</li>
+                            </ul>
+                        </p>
+                        <p>
+                            I led the project group tasked with designing a new braking system that complied with the rules.
+                            My main responsibilities were managing our groups timelines to ensure the project's completion, onboarding my group members to various design tools and techniques, and supporting their work.
+                            I also did a lot of design work for this project, including selecting and procuring new hydraulic brakes and designing the foot-actuation system.
+                        </p>
+
+                        <h6>Design</h6>
+                        <p>
+                            The foot-actuation system was a challenging design problem.
+                            Firstly, a foot pedal system needed to be designed that was strong enough and also worked with off-the-shelf bike brakes.
+                            We eventually decided to create a pedal that worked with the existing brake lever for the hydraulic system, to avoid any issues with splicing together our own master cylinder system.
+                            Various concepts were generated by members of the project group.
+                            Along with finding a concept that was strong and worked with existing components, we also needed to ensure the foot pedal was useable by the driver and also didn't obstruct their vision while in the vehicle (a unique problem for the Prototype vehicles since the driver lays down).
+                        </p>
+
+                        <figure class="text-center">
+                            <img src="./img/projects/pro-brakes/Brake-Concepts.png" alt="" class="img-fluid p-2" width="40%" />
+                            <figcaption><small>Various concepts I drew for the foot-actuation system</small></figcaption>
+                        </figure>
+
+                        <p>
+                            The location and mounting of the foot pedal needed to be determined as well.
+                            There were two primary options considered: mounting to the vehicle chassis or the aerodynamic shell. Because the driver's legs extend off the chassis and sit on the shell, mounting to the chassis would involve extending a support structure along the driver's legs.
+                            Through composite simulation, I determined that extending this support structure would be add much more weight than stiffening the shell with carbon fibre so that it could withstand the force on the pedal.
+                        </p>
+
+                        <h6>Prototyping</h6>
+                        <p>
+                            With the location of the pedal determined, various prototypes were developed.
+                            Some included a crude sheet-metal pedal, used to find what pedal angles were comfortable with the driver.
+                            Another was a PLA mount and pedal (pictured below) to test out some different methods of fastening the brake levers to the mount.
+                            This prototype was also used to see if 3D-printed PLA could be strong enough for this application.
+                        </p>
+
+                        <figure class="text-center">
+                            <img src="./img/projects/pro-brakes/Prototype-1.jpg" alt="" class="img-fluid p-2" width="20%" />
+                            <img src="./img/projects/pro-brakes/Prototype-2.jpg" alt="" class="img-fluid p-2" width="20%" />
+                            <figcaption><small>The 3D-printed PLA prototype</small></figcaption>
+                        </figure>
+
+                        <p>
+                            Using feedback from these prototypes, I designing the final brake lever mount and foot pedal.
+                            The mount was designed to hold two brake levers (one for the front brakes, and one for the rear) using a clamping lid, and bolt directly to the vehicle shell using studs.
+                            The pedal slipped over the brake levers, and could be fastened using a zip tie. The design was then 3D-printed using PLA, and installed on the vehicle for testing.
+                        </p>
+
+                        <figure class="text-center">
+                            <img src="./img/projects/pro-brakes/FootPedal-Installed.jpg" alt="" class="img-fluid p-2" width="40%" />
+                            <figcaption><small>The final brake system, with foot-actuation system, installed</small></figcaption>
+                        </figure>
+
+                        <h6>Outcomes</h6>
+                        <p>
+                            After installing the final version of the brake system, the team held a track day to test out the vehicle.
+                            During testing we found the new hydraulic system to be super effect at stopping the vehicle; if anything it was too good, as we put a bald spot in a tire by stopping too fast.
+                            The mounts and shell were found to be more than strong enough, and the driver found that visibility was still sufficient with the pedal present.
+                            Unfortunately, due to COVID-19 we never got the chance to test the new braking system at competition.
+                        </p>
+
+                        <figure class="text-center">
+                            <img src="./img/projects/pro-brakes/TrackDay.jpg" alt="" class="img-fluid p-2" width="40%" />
+                            <figcaption><small>Our driver testing the brake system at track day</small></figcaption>
+                        </figure>
+
+                        <!--<p>
+                In completing this project, I:
+                <ul>
+                    <li>Placeholder</li>
+                </ul>
+            </p>-->
+
+                        <hr style="height:4px" id="urb-brakes" />
+
+                        <!-- URB Brakes -->
+                        <!--<h2 class="text-center">2018-2019: Urban Concept Brake System</h2>
+
+                        <figure class="text-center">
+                            <img src="./img/projects/urb-brakes/Pedal-Render.jpg" alt="" class="img-fluid p-2" width="50%" />
+                            <figcaption><small>Caption here</small></figcaption>
+                        </figure>
+
+                        <hr />
+
+                        <p>
+                            This is where the written description of this project goes.
+                        </p>
+
+                        <hr style="height:4px" />-->
+
+                    </div>
+                </div>
+
+                <!-- Senior Year -->
+                <div class="tab-pane fade" id="senior">
+                    <div class="container">
+
+                        <!-- Shortcuts -->
+                        <div class="row">
+                            <!--<div class="col-lg-12 text-center">
+                                <a href="#nvd"><button type="button" class="btn btn-primary">APSC 496: Sound Localization Device</button></a>
+                            </div>
+                            <div class="col-lg-12 mt-1 text-center">
+                                <a href="#mech-464"><button type="button" class="btn btn-primary">MECH 464: Autonomy with Coppelia</button></a>
+                            </div>-->
+                            <div class="col-lg-12 text-center">
+                                <a href="#mech-423"><button type="button" class="btn btn-primary">MECH 423: Lego Brick Colour Sorter</button></a>
+                            </div>
+                        </div>
+
+                        <!--<hr style="height:4px" id="nvd" />-->
+
+                        <!-- NVD Project -->
+                        <!--<h2 class="text-center">APSC 496 (New Venture Design): Sound Localization Device</h2>-->
+
+                        <!-- Card image would go here -->
+
+                        <!--<hr />
+
+                        <p>
+                            This is where the written description of this project goes.
+                        </p>
+
+                        <hr style="height:4px" id="mech-464" />-->
+
+                        <!-- MECH 464 Project -->
+                        <!--<h2 class="text-center">MECH 464: Autonomy with Coppelia</h2>-->
+
+                        <!-- Card image would go here -->
+
+                        <!--<hr />
+
+                        <p>
+                            This is where the written description of this project goes.
+                        </p>-->
+
+                        <hr style="height:4px" id="mech-423" />
+
+                        <!-- MECH 423 Final Project -->
+                        <h2 class="text-center">MECH 423: Lego Brick Colour Sorter</h2>
+
+                        <figure class="text-center">
+                            <img src="./img/projects/mech-423/FinalSystem.jpg" alt="" class="img-fluid p-2" width="50%" />
+                            <figcaption><small>The brick colour sorter</small></figcaption>
+                        </figure>
+
+                        <hr />
+
+                        <h6>Overview</h6>
+                        <p>
+                            As part of MECH 423 (Mechatronic Product Design), my partner and I were tasked with creating a mechatronics system that had real-world applications.
+                            We decided to create a Lego Brick Sorter, which could automatically sort building bricks by colour.
+                        </p>
+                        <p>
+                            For this project, my partner and I developed five functional requirements for the system:
+                            <ul>
+                                <li>Machine vision</li>
+                                <li>A conveyor system</li>
+                                <li>Mechanical block sorters</li>
+                                <li>A user interface</li>
+                                <li>Firmware</li>
+                            </ul>
+                        </p>
+                        <p>
+                            My primary responsibilities in this project were the mechanical block sorters and the firmware used on the microcontroller.
+                            I also assisted with the other portions of the project, including the conveyor system.
+                        </p>
+
+                        <h6>Conveyor</h6>
+                        <p>
+                            The backbone of the system is the conveyor, which moves the blocks through the sorting process.
+                            The conveyor is implemented using a gaffer tape belt that spans between an active pulley driven by stepper motors and an idler pulley.
+                            Motor mounts, support pieces, and belt drums were modelled in SOLIDWORKS and 3D-printed using PETG.
+                            Aluminum extrusion is used for the base to allow the conveyor length to be adjusted.
+                        </p>
+
+                        <figure class="text-center">
+                            <img src="./img/projects/mech-423/FullConveyor.jpg" alt="" class="img-fluid p-2" width="40%" />
+                            <figcaption><small>The conveyor belt system</small></figcaption>
+                        </figure>
+
+                        <p>
+                            Two NEMA-17 stepper motors drive one of the conveyor drums.
+                            These motors are driven using two external motor driver boards, both of which are controlled by a MSP430FR5739 microcontroller board.
+                        </p>
+
+                        <figure class="text-center">
+                            <img src="./img/projects/mech-423/DrivenConveyor.jpg" alt="" class="img-fluid p-2" width="40%" />
+                            <figcaption><small>The driven conveyor drum</small></figcaption>
+                        </figure>
+                        <figure class="text-center">
+                            <img src="./img/projects/mech-423/ConveyorElecSchem.png" alt="" class="img-fluid p-2" width="40%" />
+                            <figcaption><small>Electrical schematic for the conveyor stepper motors</small></figcaption>
+                        </figure>
+
+                        <h6>Machine Vision</h6>
+                        <p>
+                            A 1080p webcam, capable of 30 frames per second, is located above the start of the conveyor.
+                            This webcam is connected to a personal computer, which runs machine vision software written in C# using the Accord.NET framework.
+                            The software carries out a series of operations on frames from the webcam that are used to determine the colour of any block that passed through the field of vision.
+                        </p>
+                        <p>
+                            A colour image from the camera are converted to greyscale and filtered using a Gaussian blur. This greyscale image is used to determine the colour.
+                            The background is then removed using a threshold filter, creating a binary image that is used to find the center of any block in the field of view.
+                        </p>
+
+                        <figure class="text-center">
+                            <img src="./img/projects/mech-423/VisionFlowchart.png" alt="" class="img-fluid p-2" width="20%" />
+                            <figcaption><small>Flowchart of the image processing procedure</small></figcaption>
+                        </figure>
+                        <figure class="text-center">
+                            <img src="./img/projects/mech-423/ColourGrayscaleBinary.png" alt="" class="img-fluid p-2" width="40%" />
+                            <figcaption><small>From left to right: colour video stream, grayscale equivalent, and binary image</small></figcaption>
+                        </figure>
+
+                        <p>
+                            When the colour is determined, a serial package is sent to the MSP430FR5739 board that contains a command byte.
+                            This command byte tells the firmware on the microcontroller which block colour just passed under the camera.
+                        </p>
+
+                        <h6>Block Sorters</h6>
+                        <p>
+                            Multiple mechanical 'block sorters' are stationed along the length of the conveyor, which are used to push blocks off the conveyor and in to sorting bins.
+                            These sorters consist of a raised platform with a pusher arm. This pusher arm is linearly actuated using a servo motor and a rack-and-pinion.
+                        </p>
+
+                        <figure class="text-center">
+                            <img src="./img/projects/mech-423/BlockSorter.jpg" alt="" class="img-fluid p-2" width="40%" />
+                            <figcaption><small>Mechanical block sorter</small></figcaption>
+                        </figure>
+
+                        <p>
+                            The servo motor of each block sorter is powered with an external 5 V supply, and controlled using PWM signals from the MSP430FR5739 board.
+                        </p>
+
+                        <figure class="text-center">
+                            <img src="./img/projects/mech-423/Servo-Wiring.jpg" alt="" class="img-fluid p-2" width="40%" />
+                            <figcaption><small>Electrical schematic of the circuit used to drive the servo motors</small></figcaption>
+                        </figure>
+
+                        <h6>Firmware and Hardware</h6>
+                        <p>
+                            The system firmware, which runs on the MSP430FR5739 board, controls the stepper motors of the conveyor belt and the servo motors of the block sorters.
+                        </p>
+                        <p>
+                            To control the stepper motors, a timer is used to cause an interrupt every 1.54 milliseconds.
+                            At each interrupt the output pins to the stepper motors are changed in order to step the motors forward.
+                            This interrupt frequency gives a desired conveyor speed of 8.86 centimeters per second.
+                        </p>
+                        <p>
+                            The block sorter control is a more complicated implementation, as the firmware needs to extend and retract multiple sorters, in parallel, in such a sequence where the correct blocks are pushed off and no others are impeded.
+                            Circular buffers are used to track commands for each sorter as they are received via serial packages from the machine vision software.
+                            When a new command is received, the firmware uses various parameters to calculate a time delay between when the block passes under the camera and when it passes in front of the correct sorter.
+                        </p>
+                        <p>
+                            A timer is set to cause an interrupt every 20 milliseconds, during which a counter is incremented.
+                            The time delays calculated for each command are converted into a counter number, so that during each interrupt the current counter number is compared to the first element in each circular buffer.
+                            If the current count equals a buffer value, then the corresponding sorter is extended or retracted (depending on the current state).
+                        </p>
+
+                        <figure class="text-center">
+                            <img src="./img/projects/mech-423/Firmware-Flowchart.jpg" alt="" class="img-fluid p-2" width="30%" />
+                            <figcaption><small>Flowchart of the firmware algorithm for servo motor control</small></figcaption>
+                        </figure>
+                        <figure class="text-center">
+                            <img src="./img/projects/mech-423/Firmware-PseudoCode.jpg" alt="" class="img-fluid p-2" width="30%" />
+                            <figcaption><small>Pseudo code for the servo motor firmware</small></figcaption>
+                        </figure>
+
+                        <p>
+                            The electrical circuits for the stepper motors and servo motors were implemented using custom prototyping boards.
+                            Doing so kept the wiring clean, increased reliability, and also reduced the risk of erroneous connections.
+                        </p>
+
+                        <figure class="text-center">
+                            <img src="./img/projects/mech-423/Electronics.jpg" alt="" class="img-fluid p-2" width="40%" />
+                            <figcaption><small>The custom electrical system</small></figcaption>
+                        </figure>
+
+                        <h6>User Interface</h6>
+                        <p>
+                            The computer software used to run the machine vision also features a user interface, created using C# with the Windows Forms environment.
+                            This UI lets the user connect the camera and microcontroller, monitor the camera feed, tune machine vision parameters, and also track the number of blocks sorter.
+                        </p>
+
+                        <figure class="text-center">
+                            <img src="./img/projects/mech-423/MonitorView.png" alt="" class="img-fluid p-2" width="30%" />
+                            <figcaption><small>The main user interface window for monitoring the system</small></figcaption>
+                        </figure>
+                        <figure class="text-center">
+                            <img src="./img/projects/mech-423/TuneParams.png" alt="" class="img-fluid p-2" width="20%" />
+                            <figcaption><small>The window for tuning machine vision parameters</small></figcaption>
+                        </figure>
+
+                        <h6>Outcomes</h6>
+                        <p>
+                            After a lot of testing, the system was successfully implemented and demonstrated to the teaching team, fellow students, and alumni. Course deliverables, including a final report and a video submission, were also completed.
+                        </p>
+
+                        <figure class="text-center">
+                            <video width="40%" controls>
+                                <source src="./img/projects/mech-423/(Eric Bokenfohr) MECH 423 Final Project Video.mp4" type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                            <figcaption><small>Video presentation of the project</small></figcaption>
+                        </figure>
+
+                        <p>
+                            On reflection, there is certainly room for improvement. The block sorters met expectations and needs, but there are more efficient methods of linearly pushing blocks off of the conveyor.
+                            The machine vision was accurate after tuning, but the robustness could be greatly improved through different pixel averaging methods.
+                            Having a light source mounted above the conveyor would also help.
+                        </p>
+
+
+                        <!--<p>
+                            In completing this project, I:
+                            <ul>
+                                <li>Placeholder</li>
+                            </ul>
+                        </p>-->
+
+                        <hr style="height:4px" />
+
+                    </div>
+                </div>
+
+                <!-- 3rd Year -->
+                <!--<div class="tab-pane fade" id="year3">
+                <h2>3rd Year</h2>
+                </div>-->
+                <!-- 2nd Year -->
+                <!--<div class="tab-pane fade" id="year2">
+                <h2>2nd Year</h2>
+                </div>-->
+
+                <!-- Personal -->
+                <div class="tab-pane fade" id="personal">
+                    <div class="container">
+
+                        <!-- Shortcuts -->
+                        <div class="row">
+                            <div class="col-lg-12 text-center">
+                                <a href="#portfolio"><button type="button" class="btn btn-primary">Online Portfolio</button></a>
+                            </div>
+                        </div>
+
+                        <hr style="height:4px" id="portfolio" />
+
+                        <!-- Online Portfolio -->
+                        <h2 class="text-center">Online Portfolio</h2>
+
+                        <figure class="text-center">
+                            <img src="./img/projects/portfolio/profile.jpg" alt="" class="img-fluid p-2" width="20%" />
+                            <figcaption><small>Profile picture for my online portfolio</small></figcaption>
+                        </figure>
+
+                        <hr />
+
+                        <p>
+                            Not a lot of detail is required here, since if you are reading this project description then you are already visiting my online portfolio.
+                        </p>
+                        <p>
+                            This portfolio was built as a convenient way to list my education and experience, and also serve as a all-in-one project portfolio. 
+                            It has also served as an excuse for me to get more familiar with front-end programming.
+                        </p>
+                        <p>
+                            The website uses a Bootswatch theme called <a href="https://bootswatch.com/zephyr/">'Zephyr'</a>, which is designed for Bootstrap.
+                            All the HTML was coded from scratch.
+                        </p>
+                        <p>
+                            The portfolio is still what I would consider a 'work in progress', mainly in terms of content. 
+                            There are several projects from my senior year and previous school years that I would like to add, including current ones for courses such as APSC 496 (New Venture Design) and MECH 464 (Industrial Robotics).
+                            Some improvements can likely be made on the mobile side of this as well, since the initial version of the portfolio was made with computer users in mind.
+                        </p>
+
+                        <hr style="height:4px" />
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </body>
+</html>
