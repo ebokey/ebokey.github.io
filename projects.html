@@ -75,7 +75,7 @@
 							<a class="nav-link" data-toggle="pill" href="#supermileage">Supermileage</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" data-toggle="pill" href="#senior">Senior Year</a>
+							<a class="nav-link" data-toggle="pill" href="#senior">School</a>
 						</li>
 						<!--<li class="nav-item">
 							<a class="nav-link" data-toggle="pill" href="#year3">3rd Year</a>
@@ -182,30 +182,31 @@
 
                         <hr style="height:4px" />
 
-                        <!-- Senior Year -->
+                        <!-- School -->
                         <div class="row">
                             <div class="col-lg-2">
-                                <h2>Senior Year</h2>
+                                <h2>School</h2>
                             </div>
                             <div class="col-lg-10">
 
                                 <!-- Card container -->
                                 <div class="container">
 
-                                    <!--<div class="row mb-3">-->
+                                    <div class="row mb-3">
 
                                         <!-- NVD -->
-                                        <!--<div class="col-lg-6">
+                                        <div class="col-lg-6">
                                             <div class="card" style="height:100%">
                                                 <div class="card-body">
                                                     <h4 class="card-title">APSC 496: Sound Localization Device</h4>
-                                                    <img src="./img/projects/fcp-chassis/FCP-Chassis.jpg" alt="" class="img-fluid p-2" />
+                                                    <img src="./img/projects/nvd/wristband.png" alt="" class="img-fluid p-2" />
                                                     <p class="card-text">
-                                                        Project description.
+                                                        For my engineering capstone in New Venture Design, I worked with other engineering students and business students to develop SOLO; 
+                                                        a wearable microphone array and a wristband that perform sound localization and recognition with haptic feedback.
                                                     </p>
                                                 </div>
                                             </div>
-                                        </div>-->
+                                        </div>
 
                                         <!-- MECH 464 -->
                                         <!--<div class="col-lg-6">
@@ -220,8 +221,6 @@
                                             </div>
                                         </div>
                                     </div>-->
-
-                                    <div class="row mb-3">
 
                                         <!-- MECH 423 -->
                                         <div class="col-lg-6">
@@ -584,37 +583,101 @@
                     </div>
                 </div>
 
-                <!-- Senior Year -->
+                <!-- School -->
                 <div class="tab-pane fade" id="senior">
                     <div class="container">
 
                         <!-- Shortcuts -->
                         <div class="row">
-                            <!--<div class="col-lg-12 text-center">
+                            <div class="col-lg-12 text-center">
                                 <a href="#nvd"><button type="button" class="btn btn-primary">APSC 496: Sound Localization Device</button></a>
                             </div>
-                            <div class="col-lg-12 mt-1 text-center">
+                            <!--<div class="col-lg-12 mt-1 text-center">
                                 <a href="#mech-464"><button type="button" class="btn btn-primary">MECH 464: Autonomy with Coppelia</button></a>
                             </div>-->
-                            <div class="col-lg-12 text-center">
+                            <div class="col-lg-12 mt-1 text-center">
                                 <a href="#mech-423"><button type="button" class="btn btn-primary">MECH 423: Lego Brick Colour Sorter</button></a>
                             </div>
                         </div>
 
-                        <!--<hr style="height:4px" id="nvd" />-->
+                        <hr style="height:4px" id="nvd" />
 
                         <!-- NVD Project -->
-                        <!--<h2 class="text-center">APSC 496 (New Venture Design): Sound Localization Device</h2>-->
+                        <h2 class="text-center">APSC 496 (New Venture Design): Sound Localization Device</h2>
+                        
+                        <figure class="text-center">
+                            <img src="./img/projects/nvd/wristband.png" alt="" class="img-fluid p-2" width="50%" />
+                            <figcaption><small>The SOLO wristband CAD model</small></figcaption>
+                        </figure>
 
-                        <!-- Card image would go here -->
-
-                        <!--<hr />
+                        <hr />
 
                         <p>
-                            This is where the written description of this project goes.
+                            Instead of working on a standing Mechanical Engineering capstone project, I decided to complete my engineering capstone through the New Venture Design (NVD) program at UBC.
+                            NVD puts a focus on teaching students entrepreneurship, and having them work in inter-disciplinary teams; all NVD teams are comprised of 3 technical students and 3 business students.
+                            NVD students are tasked with developing their own venture, from nothing to a full business plan and Minimum Viable Prototype (MVP).
+                        </p>
+                        <p>
+                            My group and I eventually settled on the venture SOLO, designed to enchance environmental awareness for hard-of-hearing individuals.
+                            The device the venture was built around is a wearable microphone array that performs sound recognition localization.
+                            A haptic wristband then indicates the direction that keys sounds are coming from to the user.
+                            Our primary target customers were hard-of-hearing individuals who have difficulties picking out important sounds in their environment, and/or 
+                            having troubles determining what direction sounds are coming from.
                         </p>
 
-                        <hr style="height:4px" id="mech-464" />-->
+                        <figure class="text-center">
+                            <img src="./img/projects/nvd/SOLO Logo.png" alt="" class="img-fluid p-2" width="40%" />
+                            <figcaption><small>The SOLO logo</small></figcaption>
+                        </figure>
+
+                        <figure class="text-center">
+                            <img src="./img/projects/nvd/finalSketch.png" alt="" class="img-fluid p-2" width="40%" />
+                            <figcaption><small>An overview of the SOLO product</small></figcaption>
+                        </figure>
+
+                        <p>
+                            NVD runs throughout the entire school year, with the first term focused on problem development and selection.
+                            In other words, the first half of the course is spent picking potential ventures, validating which ventures are viable, and picking one to move forward with.
+                            The second term is then spent creating a full business plan and making the MVP.
+                            The MVP in particular is a prototype that communicates the feasibility and basic functionality.
+                            The SOLO MVP was created with a Raspberry Pi to prototype the microphone array, and an Arduino Nano to prototype the haptic wristband.
+                            We then were able to demonstrate our working MVP at the final NVD presentation night.
+                        </p>
+
+                        <p>
+                            To make a prototype of the microphone array, we procured a Raspberry Pi and a 4-mic array that connected directly ontop of the Pi.
+                            The Pi was loaded with a Python script that runs audio processing software that detected a keyword in the environment, and then calculated the Direction of Arrival (DOA).
+                            The 'quadrant' that the sound's source belongs to (front, right, back, or left) is then determined and sent to the wristband through serial communication.
+                        </p>
+
+                        <p>
+                            The wristband prototype was created using an Arduino Nano as the controller, and 4 vibrating motors to provide the user haptic feedback.
+                            The serial message with the quadrant of the sound source, which was discussed in the last paragraph, is received from the Pi by the Nano.
+                            This serial message is then used by the Nano to activate the vibrating motor that corresponds to that quadrant.
+                            All of these components were sewn into an athletic wristband, with the motors places at 90 degree increments around the wristband.
+                            Following this motor placement made the haptic feedback easier to interpret as the user can assosicate each motor with the direction it points in.
+                        </p>
+
+                        <figure class="text-center">
+                            <img src="./img/projects/nvd/MVP.jpg" alt="" class="img-fluid p-2" width="40%" />
+                            <figcaption><small>The prototype of the SOLO device</small></figcaption>
+                        </figure>
+
+                        <p>
+                            I am, admittedly, not giving this project the justice it deserves with this overview. 
+                            I've provided a very high-level summary of the work we put into the MVP, and there is plenty of more work we did that I could talk about.
+                            That includes testing at various stages of the design process, and a lot of research we conducted into our plan for the final SOLO device.
+                        </p>
+
+                        <p>
+                            This overview also doesn't cover all of the work we put into developing this venture.
+                            That work included getting customer input through interviews and surveys, identifying various problems, and generating concepts for solutions.
+                            We also created various deliverables for the course, including a final business report, a final technical report, and a final slide deck.
+                            Our business team also put incredible work into creating a full business plan behind the SOLO device.
+                            I am happy to go more in-depth on this project with anyone who is interested.
+                        </p>
+
+                        <!--<hr style="height:4px" id="mech-464" />-->
 
                         <!-- MECH 464 Project -->
                         <!--<h2 class="text-center">MECH 464: Autonomy with Coppelia</h2>-->
